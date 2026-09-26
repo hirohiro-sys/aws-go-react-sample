@@ -1,11 +1,8 @@
-module github.com/docker/awesome-compose/nginx-golang-postgres/backend
+module github.com/hirohiro-sys/aws-go-react-sample/backend
 
-go 1.18
+go 1.27
 
 require (
-	github.com/gorilla/handlers v1.3.0
-	github.com/gorilla/mux v1.6.2
-	github.com/lib/pq v1.10.3
+	github.com/gorilla/mux v1.8.1
+	github.com/lib/pq v1.10.9
 )
-
-require github.com/gorilla/context v1.1.1 // indirect
